@@ -28,6 +28,8 @@ Instructions:
         - run _font-face.scss compiler "gulp fontStyle"
         - rename related fonts to one name and change font-weight in _font-face.scss
     2. css, js:
+        - set css libs to load in gulpfile.js (line 98)
+        - set js libs to load in gulpfile.js (line 126)
         - run "gulp firstCompile"
         - check _main-block.scss
 

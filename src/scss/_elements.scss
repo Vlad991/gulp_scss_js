@@ -1,0 +1,9 @@
+@import "settings/color";
+@import "tools/mixin";
+@import "tools/media";
+
+.container__anchor {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}

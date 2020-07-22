@@ -1,0 +1,34 @@
+@import "node_modules/normalize.scss/normalize";
+@import "settings/font";
+@import "settings/color";
+@import "tools/mixin";
+@import "tools/media";
+
+body {
+  font-size: 20px;
+  display: flex;
+}
+
+span {
+  font-size: 15px;
+  @media(max-width: 767px) {
+    font-size: 12px;
+  }
+}
+
+div {
+  font-size: 12px;
+  background: url(../img/main-page/main-block/img.jpg) no-repeat center;
+  @media (max-width: 767px) {
+    font-size: 13px;
+  }
+}
+
+//........................................Elements........................................
+@import "elements";
+
+//........................................Header........................................
+@import "header";
+
+//........................................Footer........................................
+@import "footer";
